@@ -1,3 +1,27 @@
+.nav {
+    font-size: $font-size-main;
+
+    &__logo {
+        font-size: $font-size-logo;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: $color-text;
+    }
+
+    &__menu {
+        list-style: none;
+        text-align: center;
+
+        .item {
+            letter-spacing: 2px;
+
+            &-link {
+                text-decoration: none;
+                color: $color-text;
+            }
+        }
+    }
+}
 .header {
     .heading-text {
         font-size: $font-size-h1;

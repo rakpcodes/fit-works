@@ -1,0 +1,27 @@
+.nav {
+    display: flex;
+    font-size: $font-size-main;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem 0;
+
+    &__logo {
+        display: inline-block;
+        position: relative;
+
+        @include underline-animation;
+    }
+
+    &__menu {
+        display: flex;
+
+        .item {
+            position: relative;
+            @include underline-animation;
+
+            &:not(:last-child) {
+                margin-right: 4rem;
+            }
+        }
+    }
+}

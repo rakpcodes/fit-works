@@ -1,6 +1,7 @@
 // ABSTRACTS
 
 @import "./abstracts/variables";
+@import "./abstracts/mixins";
 
 // BASE
 
@@ -11,3 +12,4 @@
 // LAYOUTS
 
 @import "./layouts/header";
+@import "./layouts/navigation";
