@@ -311,6 +311,7 @@ html {
 
 .header .heading-text {
   font-size: 7rem;
+  letter-spacing: 3px;
 }
 
 .header {
@@ -322,7 +323,7 @@ html {
   margin: 10rem 0;
 }
 .header__image-box {
-  height: 60rem;
+  height: 55rem;
   position: relative;
 }
 .header__image-box .heading-image {
