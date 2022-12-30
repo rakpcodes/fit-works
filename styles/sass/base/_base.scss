@@ -1,15 +1,17 @@
 html {
     font-size: 62.5%;
-}
 
-body {
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    line-height: 1.5;
-    color: $color-text;
-    background-color: $color-primary-dark;
+    body {
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        line-height: 1.5;
+        color: $color-text;
+        background-color: $color-primary-dark;
+        max-width: 1200px;
+        margin: 0 auto;
 
-    p {
-        font-weight: 400;
+        p {
+            font-weight: 400;
+        }
     }
 }
