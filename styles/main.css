@@ -295,6 +295,7 @@ html {
   text-transform: uppercase;
   text-decoration: none;
   color: #fff;
+  letter-spacing: 3px;
 }
 .nav__menu {
   list-style: none;
@@ -314,9 +315,11 @@ html {
 
 .header {
   position: relative;
+  margin-bottom: 10rem;
 }
 .header__text-box {
   text-align: center;
+  margin: 10rem 0;
 }
 .header__image-box {
   height: 60rem;
