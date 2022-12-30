@@ -388,7 +388,13 @@ html {
 .nav__menu .item {
   position: relative;
 }
-.nav__menu .item::after {
+.nav__menu .item:not(:last-child) {
+  margin-right: 3rem;
+}
+.nav__menu .item-link {
+  padding: 3rem 0;
+}
+.nav__menu .item-link::after {
   content: "";
   position: absolute;
   width: 100%;
@@ -405,12 +411,9 @@ html {
   transition: transform 0.25s ease-out;
   transition: transform 0.25s ease-out, -webkit-transform 0.25s ease-out;
 }
-.nav__menu .item:hover::after {
+.nav__menu .item-link:hover::after {
   -webkit-transform: scaleX(1);
           transform: scaleX(1);
   -webkit-transform-origin: bottom left;
           transform-origin: bottom left;
-}
-.nav__menu .item:not(:last-child) {
-  margin-right: 4rem;
 }

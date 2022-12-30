@@ -8,7 +8,6 @@
     &__logo {
         display: inline-block;
         position: relative;
-
         @include underline-animation;
     }
 
@@ -17,10 +16,15 @@
 
         .item {
             position: relative;
-            @include underline-animation;
+            // border: 1px solid $color-secondary;
 
             &:not(:last-child) {
-                margin-right: 4rem;
+                margin-right: 3rem;
+            }
+
+            &-link {
+                padding: 3rem 0;
+                @include underline-animation;
             }
         }
     }
