@@ -1,0 +1,36 @@
+.section {
+    &-exercises {
+        .text-box {
+            width: 40%;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            height: 50%;
+
+            &-row-1 {
+                width: 49%;
+                position: relative;
+            }
+            &-row-2 {
+                width: 32%;
+                position: relative;
+            }
+
+            &-image {
+                width: 100%;
+                height: 40rem;
+                object-fit: cover;
+                margin-bottom: 2rem;
+            }
+
+            &-header {
+                position: absolute;
+                bottom: 3rem;
+                margin-left: 3rem;
+            }
+        }
+    }
+}

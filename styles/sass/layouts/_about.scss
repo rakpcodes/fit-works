@@ -1,8 +1,9 @@
 .section {
     &-about {
         display: flex;
+        justify-content: space-between;
         .text-box {
-            width: 45%;
+            width: 40%;
             display: inline-block;
         }
 

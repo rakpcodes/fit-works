@@ -15,7 +15,7 @@ html body p {
   line-height: 4rem;
 }
 html body section {
-  margin: 8rem 0;
+  margin: 10rem 0;
 }
 
 html {
@@ -291,6 +291,26 @@ html {
   overflow: hidden;
 }
 
+h1 {
+  font-size: 7rem;
+}
+
+h2 {
+  font-size: 4.8rem;
+}
+
+h3 {
+  font-size: 3.8rem;
+}
+
+h4 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.8rem;
+}
+
 .nav {
   font-size: 1.8rem;
 }
@@ -314,21 +334,13 @@ html {
 }
 
 .header .heading-primary {
-  font-size: 7rem;
   letter-spacing: 3px;
 }
 
-.section-about .text-box .heading-secondary {
-  font-size: 4.8rem;
-}
-.section-about .text-box-paragraph {
-  font-size: 1.8rem;
-}
 .section-about .image-box-message {
   text-align: center;
 }
 .section-about .image-box-message .heading-secondary {
-  font-size: 4.8rem;
   text-transform: uppercase;
   width: 60%;
 }
@@ -488,9 +500,12 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 .section-about .text-box {
-  width: 45%;
+  width: 40%;
   display: inline-block;
 }
 .section-about .image-box {
@@ -522,4 +537,39 @@ html {
   height: 45rem;
   position: absolute;
   right: 0;
+}
+
+.section-exercises .text-box {
+  width: 40%;
+}
+.section-exercises .gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 50%;
+}
+.section-exercises .gallery-row-1 {
+  width: 49%;
+  position: relative;
+}
+.section-exercises .gallery-row-2 {
+  width: 32%;
+  position: relative;
+}
+.section-exercises .gallery-image {
+  width: 100%;
+  height: 40rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-bottom: 2rem;
+}
+.section-exercises .gallery-header {
+  position: absolute;
+  bottom: 3rem;
+  margin-left: 3rem;
 }

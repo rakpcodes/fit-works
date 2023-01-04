@@ -1,3 +1,23 @@
+h1 {
+    font-size: $font-size-h1;
+}
+
+h2 {
+    font-size: $font-size-h2;
+}
+
+h3 {
+    font-size: $font-size-h3;
+}
+
+h4 {
+    font-size: $font-size-h4;
+}
+
+p {
+    font-size: $font-size-main;
+}
+
 .nav {
     font-size: $font-size-main;
 
@@ -25,28 +45,16 @@
 }
 .header {
     .heading-primary {
-        font-size: $font-size-h1;
         letter-spacing: 3px;
     }
 }
 
 .section {
     &-about {
-        .text-box {
-            .heading-secondary {
-                font-size: $font-size-h2;
-            }
-
-            &-paragraph {
-                font-size: $font-size-main;
-            }
-        }
-
         .image-box {
             &-message {
                 text-align: center;
                 .heading-secondary {
-                    font-size: $font-size-h2;
                     text-transform: uppercase;
                     width: 60%;
                 }
