@@ -573,3 +573,13 @@ p {
   bottom: 3rem;
   margin-left: 3rem;
 }
+.section-exercises .gallery-box-shadow {
+  position: absolute;
+  bottom: 2rem;
+  left: 0;
+  width: 100%;
+  height: 20%;
+  -webkit-box-shadow: inset 0px -3rem 3rem black;
+          box-shadow: inset 0px -3rem 3rem black;
+  border-bottom: 0.5rem solid #ffd600;
+}
