@@ -1,0 +1,13 @@
+.sub-header {
+    position: relative;
+
+    .slashes {
+        position: absolute;
+        top: 0;
+    }
+
+    .heading-secondary {
+        margin-left: 6rem;
+        display: inline-block;
+    }
+}

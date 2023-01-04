@@ -1,0 +1,36 @@
+.section {
+    &-about {
+        display: flex;
+        .text-box {
+            width: 45%;
+            display: inline-block;
+        }
+
+        .image-box {
+            width: 55%;
+            height: 60rem;
+            position: relative;
+
+            &-message {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: $color-primary-light;
+                width: 32rem;
+                height: 40rem;
+                position: absolute;
+                bottom: 0;
+                left: 10rem;
+                z-index: 1;
+            }
+
+            &-image {
+                display: inline-block;
+                width: 40rem;
+                height: 45rem;
+                position: absolute;
+                right: 0;
+            }
+        }
+    }
+}

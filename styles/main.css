@@ -12,6 +12,10 @@ html body {
 }
 html body p {
   font-weight: 400;
+  line-height: 4rem;
+}
+html body section {
+  margin: 8rem 0;
 }
 
 html {
@@ -309,9 +313,71 @@ html {
   color: #fff;
 }
 
-.header .heading-text {
+.header .heading-primary {
   font-size: 7rem;
   letter-spacing: 3px;
+}
+
+.section-about .text-box .heading-secondary {
+  font-size: 4.8rem;
+}
+.section-about .text-box-paragraph {
+  font-size: 1.8rem;
+}
+.section-about .image-box-message {
+  text-align: center;
+}
+.section-about .image-box-message .heading-secondary {
+  font-size: 4.8rem;
+  text-transform: uppercase;
+  width: 60%;
+}
+
+.u-margin-bottom-small {
+  margin-bottom: 1rem !important;
+}
+
+.u-margin-bottom-medium {
+  margin-bottom: 4rem !important;
+}
+
+.u-margin-bottom-big {
+  margin-bottom: 8rem !important;
+}
+
+.u-margin-top-small {
+  margin-top: 1rem !important;
+}
+
+.u-margin-top-medium {
+  margin-top: 4rem !important;
+}
+
+.u-margin-top-big {
+  margin-top: 8rem !important;
+}
+
+.btn {
+  background-color: #3d20ef;
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 600;
+  font-family: inherit;
+  text-align: center;
+  letter-spacing: 0.2rem;
+  padding: 1.5rem 5rem;
+}
+
+.sub-header {
+  position: relative;
+}
+.sub-header .slashes {
+  position: absolute;
+  top: 0;
+}
+.sub-header .heading-secondary {
+  margin-left: 6rem;
+  display: inline-block;
 }
 
 .header {
@@ -335,7 +401,7 @@ html {
 }
 .header__image-box .heading-badge {
   position: absolute;
-  top: -5%;
+  top: -6%;
   left: 48%;
   height: 8rem;
 }
@@ -416,4 +482,44 @@ html {
           transform: scaleX(1);
   -webkit-transform-origin: bottom left;
           transform-origin: bottom left;
+}
+
+.section-about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.section-about .text-box {
+  width: 45%;
+  display: inline-block;
+}
+.section-about .image-box {
+  width: 55%;
+  height: 60rem;
+  position: relative;
+}
+.section-about .image-box-message {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #3d20ef;
+  width: 32rem;
+  height: 40rem;
+  position: absolute;
+  bottom: 0;
+  left: 10rem;
+  z-index: 1;
+}
+.section-about .image-box-image {
+  display: inline-block;
+  width: 40rem;
+  height: 45rem;
+  position: absolute;
+  right: 0;
 }

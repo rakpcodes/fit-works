@@ -24,8 +24,33 @@
     }
 }
 .header {
-    .heading-text {
+    .heading-primary {
         font-size: $font-size-h1;
         letter-spacing: 3px;
+    }
+}
+
+.section {
+    &-about {
+        .text-box {
+            .heading-secondary {
+                font-size: $font-size-h2;
+            }
+
+            &-paragraph {
+                font-size: $font-size-main;
+            }
+        }
+
+        .image-box {
+            &-message {
+                text-align: center;
+                .heading-secondary {
+                    font-size: $font-size-h2;
+                    text-transform: uppercase;
+                    width: 60%;
+                }
+            }
+        }
     }
 }

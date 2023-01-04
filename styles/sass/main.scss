@@ -8,8 +8,13 @@
 @import "./base/base";
 @import "./base/setup";
 @import "./base/typography";
+@import "./base/ultilities";
+
+// COMPONENTS
+@import "./components/button";
+@import "./components/sub-header";
 
 // LAYOUTS
-
 @import "./layouts/header";
 @import "./layouts/navigation";
+@import "./layouts/about";
