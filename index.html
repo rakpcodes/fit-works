@@ -12,7 +12,7 @@
 
 <body>
 
-    <nav class="nav">
+    <nav class="nav wrapper u-margin-top-big">
         <a href="#" class="nav__logo">Fitworks</a>
         <ul class="nav__menu">
 
@@ -23,7 +23,7 @@
         </ul>
     </nav>
 
-    <header id="header" class="header">
+    <header id="header" class="header wrapper">
 
         <div class="header__text-box">
             <h1 class="heading-primary">Everything Fitness Space</h1>
@@ -37,43 +37,47 @@
     </header>
 
     <main>
-        <section class="section-about">
 
-            <div class="text-box">
+        <div class="wrapper">
+            <section class="section-about">
 
-                <div class="u-margin-bottom-medium sub-header">
-                    <img src="./img/slashes.svg" alt="Yellow diagonal slashes" class="slashes">
-                    <h2 class="heading-secondary">Our Space</h2>
+                <div class="text-box">
+
+                    <div class="u-margin-bottom-medium sub-header">
+                        <img src="./img/slashes.svg" alt="Yellow diagonal slashes" class="slashes">
+                        <h2 class="heading-secondary">Our Space</h2>
+                    </div>
+
+                    <p class="text-box-paragraph">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit vel quaerat repellendus ab laborum
+                        dolores
+                        tempora molestiae praesentium asperiores temporibus? Reprehenderit sit, iste distinctio a atque
+                        consequuntur adipisci alias temporibus.
+                        Numquam similique accusantium iusto nesciunt aspernatur autem nam perspiciatis ipsa sequi
+                        molestiae.
+                    </p>
+
+                    <div class="u-margin-top-medium">
+                        <button class="btn">
+                            Let's Chat
+                        </button>
+                    </div>
                 </div>
 
-                <p class="text-box-paragraph">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit vel quaerat repellendus ab laborum
-                    dolores
-                    tempora molestiae praesentium asperiores temporibus? Reprehenderit sit, iste distinctio a atque
-                    consequuntur adipisci alias temporibus.
-                    Numquam similique accusantium iusto nesciunt aspernatur autem nam perspiciatis ipsa sequi molestiae.
-                </p>
+                <div class="image-box">
 
-                <div class="u-margin-top-medium">
-                    <button class="btn">
-                        Let's Chat
-                    </button>
+                    <div class="image-box-message">
+                        <h2 class="heading-secondary">15,000+ Happy Users</h2>
+                    </div>
+                    <div class="image-box-image">
+                        <img src="./img/image1.jpg" alt="" class="image-box-image">
+                    </div>
+
                 </div>
-            </div>
+            </section>
+        </div>
 
-            <div class="image-box">
-
-                <div class="image-box-message">
-                    <h2 class="heading-secondary">15,000+ Happy Users</h2>
-                </div>
-                <div class="image-box-image">
-                    <img src="./img/image1.jpg" alt="" class="image-box-image">
-                </div>
-
-            </div>
-        </section>
-
-        <section class="section-exercises">
+        <section class="section-exercises wrapper">
 
             <div class="text-box u-margin-bottom-medium">
                 <div class="u-margin-bottom-medium sub-header">
@@ -117,6 +121,34 @@
                     <h3 class="gallery-header">Strength</h3>
                 </div>
 
+            </div>
+        </section>
+
+        <section class="section-join-us">
+
+            <div class="wrapper">
+                <div class="text-box u-margin-bottom-medium">
+                    <div class="u-margin-bottom-medium sub-header">
+                        <img src="./img/slashes.svg" alt="Yellow diagonal slashes" class="slashes">
+                        <h2 class="heading-secondary">Join Us Today</h2>
+                    </div>
+
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores accusantium dolorem vero
+                        perferendis odio.</p>
+                </div>
+
+                <form action="#" class="form" name="form-join-us">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" id="name" name="name" class="form-input">
+
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" id="email" name="email" class="form-input">
+
+                    <label for="message" class="form-label">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10" class="form-text-area"></textarea>
+
+                    <button class="btn" type="submit">Send Message</button>
+                </form>
             </div>
 
         </section>

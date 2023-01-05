@@ -61,4 +61,11 @@ p {
             }
         }
     }
+
+    &-join-us {
+        .form-label {
+            font-size: $font-size-main;
+            font-weight: 400;
+        }
+    }
 }

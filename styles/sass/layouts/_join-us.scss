@@ -1,0 +1,19 @@
+.section {
+    &-join-us {
+        background-image: url(../../../img/image7.jpg);
+        background-size: cover;
+        padding: 10rem;
+
+        .form {
+            width: 66%;
+            &-label {
+                display: block;
+                width: 45%;
+            }
+
+            &-input {
+                width: 45%;
+            }
+        }
+    }
+}

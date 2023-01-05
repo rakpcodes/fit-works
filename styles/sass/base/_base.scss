@@ -7,8 +7,11 @@ html {
         line-height: 1.5;
         color: $color-text;
         background-color: $color-primary-dark;
-        max-width: 1200px;
-        margin: 0 auto;
+
+        .wrapper {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
 
         p {
             font-weight: 400;
