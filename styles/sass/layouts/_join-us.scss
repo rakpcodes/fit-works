@@ -5,21 +5,23 @@
         padding: 10rem;
 
         .text-box {
-            width: 40%;
+            width: 50%;
         }
 
         .form {
-            width: 66%;
             position: relative;
+
             &-label {
+                margin-bottom: 1rem;
+
                 &__input {
                     position: absolute;
                     top: -3rem;
+                    margin-left: 2px; // OCD in full effect
                 }
 
                 &__text-area {
                     display: block;
-                    margin-bottom: 1rem;
                 }
             }
 
@@ -28,18 +30,18 @@
                 height: 5rem;
 
                 &__name {
-                    width: 40%;
+                    width: 25%;
                     margin-right: 1rem;
                 }
 
                 &__email {
-                    width: 57.5%;
+                    width: 34%;
                 }
-            }
 
-            &-text-area {
-                resize: none;
-                width: 100%;
+                &__text-area {
+                    display: block;
+                    resize: none;
+                }
             }
         }
     }
