@@ -26,8 +26,9 @@
             }
 
             &-input {
-                background-color: $color-tertiary;
+                background-color: $color-tertiary-light;
                 height: 5rem;
+                padding-left: 1rem;
 
                 &__name {
                     width: 25%;
@@ -41,6 +42,9 @@
                 &__text-area {
                     display: block;
                     resize: none;
+                    width: 60.5%;
+                    height: 20rem;
+                    padding-top: 1rem;
                 }
             }
         }

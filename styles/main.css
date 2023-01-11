@@ -384,6 +384,7 @@ p {
   text-align: center;
   letter-spacing: 0.2rem;
   padding: 1.5rem 5rem;
+  border: 0;
 }
 
 .sub-header {
@@ -613,8 +614,9 @@ p {
   display: block;
 }
 .section-join-us .form-input {
-  background-color: #9e9da6;
+  background-color: #d7d7ec;
   height: 5rem;
+  padding-left: 1rem;
 }
 .section-join-us .form-input__name {
   width: 25%;
@@ -626,4 +628,7 @@ p {
 .section-join-us .form-input__text-area {
   display: block;
   resize: none;
+  width: 60.5%;
+  height: 20rem;
+  padding-top: 1rem;
 }
