@@ -350,6 +350,9 @@ p {
   font-size: 1.8rem;
   font-weight: 400;
 }
+.section-testimony .testimonial-text {
+  font-size: 2.8rem;
+}
 
 .u-margin-bottom-small {
   margin-bottom: 1rem !important;
@@ -631,4 +634,10 @@ p {
   width: 60.5%;
   height: 20rem;
   padding-top: 1rem;
+}
+
+.section-testimony .testimonial {
+  border-left: 7px solid #ffd600;
+  padding-left: 7rem;
+  width: 64%;
 }

@@ -1,0 +1,9 @@
+.section {
+    &-testimony {
+        .testimonial {
+            border-left: 7px solid $color-secondary;
+            padding-left: 7rem;
+            width: 64%;
+        }
+    }
+}
