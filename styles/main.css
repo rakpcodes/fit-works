@@ -664,13 +664,20 @@ p {
           align-items: center;
 }
 .section-testimony .testimonial-author-image {
-  width: 12em;
-  height: 12rem;
+  width: 11em;
   margin-right: 2rem;
 }
 .section-testimony .testimonial-author-image__img {
   width: 100%;
+  border-radius: 50%;
+}
+
+.section-banner .banner-image {
+  height: 50rem;
+}
+.section-banner .banner-image__img {
+  width: 100%;
+  height: 75%;
   -o-object-fit: cover;
      object-fit: cover;
-  border-radius: 50%;
 }
