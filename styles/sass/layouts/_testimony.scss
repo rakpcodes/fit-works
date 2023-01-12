@@ -3,7 +3,7 @@
         .testimonial {
             border-left: 7px solid $color-secondary;
             padding-left: 7rem;
-            width: 64%;
+            width: 60%;
 
             &-author {
                 display: flex;
@@ -15,8 +15,9 @@
                 }
 
                 &-image {
-                    width: 12.5em;
-                    height: 12.5rem;
+                    width: 12em;
+                    height: 12rem;
+                    margin-right: 2rem;
 
                     &__img {
                         width: 100%;

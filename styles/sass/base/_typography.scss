@@ -72,7 +72,16 @@ p {
     &-testimony {
         .testimonial {
             &-text {
-                font-size: $font-size-logo;
+                font-size: 26px;
+            }
+
+            &-author {
+                &-info {
+                    text-align: center;
+                    &__name {
+                        font-size: 26px;
+                    }
+                }
             }
         }
     }

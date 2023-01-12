@@ -351,7 +351,13 @@ p {
   font-weight: 400;
 }
 .section-testimony .testimonial-text {
-  font-size: 2.8rem;
+  font-size: 26px;
+}
+.section-testimony .testimonial-author-info {
+  text-align: center;
+}
+.section-testimony .testimonial-author-info__name {
+  font-size: 26px;
 }
 
 .u-margin-bottom-small {
@@ -639,7 +645,7 @@ p {
 .section-testimony .testimonial {
   border-left: 7px solid #ffd600;
   padding-left: 7rem;
-  width: 64%;
+  width: 60%;
 }
 .section-testimony .testimonial-author {
   display: -webkit-box;
@@ -658,8 +664,9 @@ p {
           align-items: center;
 }
 .section-testimony .testimonial-author-image {
-  width: 12.5em;
-  height: 12.5rem;
+  width: 12em;
+  height: 12rem;
+  margin-right: 2rem;
 }
 .section-testimony .testimonial-author-image__img {
   width: 100%;
