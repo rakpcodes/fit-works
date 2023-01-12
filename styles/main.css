@@ -641,3 +641,29 @@ p {
   padding-left: 7rem;
   width: 64%;
 }
+.section-testimony .testimonial-author {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.section-testimony .testimonial-author-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.section-testimony .testimonial-author-image {
+  width: 12.5em;
+  height: 12.5rem;
+}
+.section-testimony .testimonial-author-image__img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}

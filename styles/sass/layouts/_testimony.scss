@@ -4,6 +4,27 @@
             border-left: 7px solid $color-secondary;
             padding-left: 7rem;
             width: 64%;
+
+            &-author {
+                display: flex;
+                justify-content: space-between;
+
+                &-block {
+                    display: flex;
+                    align-items: center;
+                }
+
+                &-image {
+                    width: 12.5em;
+                    height: 12.5rem;
+
+                    &__img {
+                        width: 100%;
+                        object-fit: cover;
+                        border-radius: 50%;
+                    }
+                }
+            }
         }
     }
 }
