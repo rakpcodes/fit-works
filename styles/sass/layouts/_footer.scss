@@ -3,4 +3,10 @@
         display: flex;
         justify-content: space-between;
     }
+
+    &-sitemap {
+        display: flex;
+        width: 40%;
+        justify-content: space-around;
+    }
 }

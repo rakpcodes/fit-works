@@ -690,3 +690,11 @@ p {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+.footer-sitemap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 40%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
