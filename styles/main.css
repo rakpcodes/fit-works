@@ -360,6 +360,17 @@ p {
   font-size: 26px;
 }
 
+.footer-menu-heading {
+  font-size: 2rem;
+}
+.footer-menu-list {
+  list-style: none;
+}
+.footer-menu-list-link {
+  text-decoration: none;
+  color: #fff;
+}
+
 .u-margin-bottom-small {
   margin-bottom: 1rem !important;
 }

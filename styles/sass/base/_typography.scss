@@ -86,3 +86,20 @@ p {
         }
     }
 }
+
+.footer {
+    &-menu {
+        &-heading {
+            font-size: $font-size-h4;
+        }
+
+        &-list {
+            list-style: none;
+
+            &-link {
+                text-decoration: none;
+                color: $color-text;
+            }
+        }
+    }
+}
