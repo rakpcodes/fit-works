@@ -703,6 +703,22 @@ p {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+.footer .contact-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.footer .contact-box-badge {
+  width: 6rem;
+  margin-bottom: 3rem;
+}
+.footer .contact-box-address {
+  width: 60%;
+}
 .footer-sitemap {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -717,4 +733,10 @@ p {
 }
 .footer-menu-list-link {
   padding: 1rem 1rem 1rem 0;
+}
+.footer hr {
+  background-color: #9e9da6;
+}
+.footer .end-credits {
+  color: #9e9da6;
 }
