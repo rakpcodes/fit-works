@@ -369,6 +369,8 @@ p {
 .footer-menu-list-link {
   text-decoration: none;
   color: #fff;
+  font-size: 1.8rem;
+  font-weight: 400;
 }
 
 .u-margin-bottom-small {
@@ -706,6 +708,13 @@ p {
   display: -ms-flexbox;
   display: flex;
   width: 40%;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.footer-menu-list-item:not(:last-child) {
+  margin-bottom: 1rem;
+}
+.footer-menu-list-link {
+  padding: 1rem 1rem 1rem 0;
 }

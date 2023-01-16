@@ -99,6 +99,8 @@ p {
             &-link {
                 text-decoration: none;
                 color: $color-text;
+                font-size: $font-size-main;
+                font-weight: 400;
             }
         }
     }
